@@ -1,0 +1,13 @@
+version: "3"
+services:
+  ruteo:
+    build: .
+    volumes:
+      - ./app:/app
+    ports:
+      - "81:80"
+    environment:
+      - FLASK_APP=main.py
+      - FLASK_DEBUG=1
+      - "RUN=flask run --host=0.0.0.0 --port=80"
+    command: flask run --host=0.0.0.0 --port=80

@@ -1,0 +1,36 @@
+autopep8==1.4.4
+Click==7.0
+cycler==0.10.0
+Flask==1.1.1
+geographiclib==1.50
+geopy==1.20.0
+itsdangerous==1.1.0
+Jinja2==2.10.3
+joblib==0.14.0
+kiwisolver==1.1.0
+MarkupSafe==1.1.1
+numpy==1.17.3
+pandas==0.25.3
+pycodestyle==2.5.0
+pyparsing==2.4.4
+python-dateutil==2.8.1
+pytz==2019.3
+scikit-learn==0.21.3
+scipy==1.3.1
+six==1.13.0
+sklearn==0.0
+Werkzeug==0.16.0
+matplotlib==3.1.1
+Flask-MySQLdb==0.2.0
+# Shapely dependencias
+setuptools
+Cython>=0.19
+descartes==1.0.1
+pytest
+pytest-cov
+wheel
+geos==0.2.2
+Shapely==1.6.4.post2
+requests==2.22.0
+# CORS ACCESS
+Flask-Cors==3.0.8
