@@ -33,4 +33,4 @@ geos==0.2.2
 Shapely==1.6.4.post2
 requests==2.22.0
 # CORS ACCESS
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
